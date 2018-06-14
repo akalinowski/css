@@ -22,7 +22,7 @@ header {
 .main {
     height: 60%;
     display: grid;
-    grid-template-columns: auto 60% auto;
+    grid-template-columns: auto 60% auto; /*  1fr 4fr  1fr */
     grid-template-rows: 100%;
 }
 

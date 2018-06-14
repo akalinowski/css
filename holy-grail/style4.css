@@ -22,7 +22,7 @@ header {
 .main {
     height: 60%;
     display: grid;
-    grid-template-columns: auto minmax(100px, 70%) minmax(auto, 300px);
+    grid-template-columns: auto minmax(100px, 70%) minmax(auto, 300px); /* or 1fr  minmax(100px, 70%) minmax(auto, 300px) */
     grid-template-rows: 100%;
 }
 
