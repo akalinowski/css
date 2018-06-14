@@ -1,0 +1,48 @@
+* {
+     text-align: center;
+     margin: 0px;
+     padding: 0px;
+}
+
+html {
+     height: 100%;
+}
+
+body {
+     width: 100%;
+     height: 100%;
+     font-size: 24px;
+}
+
+header {    
+     height: 20%;
+     background-color: #ddff00;
+}
+
+.main {
+    height: 60%;
+    display: grid;
+    grid-template-columns: auto minmax(100px, 70%) minmax(auto, 300px);
+    grid-template-rows: 100%;
+}
+
+.main > * {
+}
+
+.main nav {
+     background-color: #ffdd00;
+}
+
+.main section {
+     background-color: #ffaa00;
+}
+
+.main aside {
+     background-color: #ff7700;
+     overflow-x: auto;
+}
+
+footer {
+     height: 20%;
+     background-color: #0077ff;
+}
